@@ -44,7 +44,7 @@ class SortedArtists<size> {
     { // make new link
         Single previous = null; // start at first
         Single current = first; // until end of list,
-        while (current != null && k.artist.compareTo(current.artist) > 0) { // or key > current,
+        while (current != null && k.track.compareTo(current.track) > 0) { // or key > current,
             previous = current;
             current = current.next; // go to next item
         }
